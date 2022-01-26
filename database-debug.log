@@ -1,0 +1,9 @@
+21:47:09.742 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+21:47:09.876 [main] INFO com.firebase.server.forge.App$ - Listening at localhost:9000
+21:47:50.412 [Thread-1] INFO com.firebase.server.forge.App$ - Attempting graceful shutdown.
+21:47:50.418 [NamespaceSystem-akka.actor.default-dispatcher-10] INFO com.firebase.core.namespace.Terminator$Terminator - 2 actors left to terminate: synchro-dnd, synchro-dnd-default-rtdb
+21:47:50.423 [NamespaceSystem-akka.actor.default-dispatcher-9] INFO com.firebase.core.namespace.NamespaceActor - Stopping namespace actor for synchro-dnd
+21:47:50.423 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.NamespaceActor - Stopping namespace actor for synchro-dnd-default-rtdb
+21:47:50.424 [NamespaceSystem-akka.actor.default-dispatcher-9] INFO com.firebase.core.namespace.NamespaceActor - Gauges removed for synchro-dnd
+21:47:50.424 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.NamespaceActor - Gauges removed for synchro-dnd-default-rtdb
+21:47:50.427 [Thread-1] INFO com.firebase.server.forge.App$ - Graceful shutdown complete.
